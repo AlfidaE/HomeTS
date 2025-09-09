@@ -13,6 +13,10 @@ module.exports = {
                 use: 'ts-loader',
                 exclude: /node_modules/,
             },
+            {
+                test: /\.css$/i,
+                use: ["css-loader"],
+            },
         ],
     },
     resolve: {
@@ -30,15 +34,7 @@ module.exports = {
         port: 9022,
         historyApiFallback: true,
     },
-    module: {
-        rules: [
-            {
-                test: /\.css$/i,
-                use: ["css-loader"],
-            },
-        ],
-    },
-    plugins: [
+   plugins: [
         new HtmlWebpackPlugin({
         template: "./index.html"
     }),
