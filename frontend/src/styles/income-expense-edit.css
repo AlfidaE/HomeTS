@@ -1,0 +1,172 @@
+.wrapper-income-expense-edit {
+
+}
+
+.wrapper-income-expense-edit h1 {
+    font-size: 40px;
+    color: #052c65;
+    margin: 0 0 40px 0;
+    display: flex;
+}
+.income-expense-edit-block input, select {
+    display: flex;
+}
+.income-expense-edit-type {
+    width: 417px;
+    height: 38px;
+    padding: 0 16px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 15px;
+    appearance: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #000000; /* Изменено с #6C757D на черный */
+}
+
+.income-expense-edit-type:invalid,
+.income-expense-edit-type option[disabled] {
+    color: #6C757D; /* Оставляем серый только для disabled состояний */
+}
+
+.income-expense-edit-type option:not([disabled]) {
+    color: #000000; /* Черный для обычных опций */
+}
+
+.input-income-expense-edit input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 417px;
+    height: 38px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 160%;
+    color: #000000; /* Изменено с #6c757d на черный */
+    padding-left: 16px;
+}
+
+/* Стиль для placeholder текста (если нужно) */
+.input-income-expense-edit input::placeholder {
+    color: #6c757d; /* Серый для placeholder */
+}
+
+.btn-income-expense-edit {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn-edit-income-expense-edit {
+    border-radius: 5px;
+    width: 88px;
+    height: 38px;
+    background: #198754;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-remove-income-expense-edit {
+    border-radius: 5px;
+    width: 83px;
+    height: 38px;
+    background: #dc3545;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.wrapper-income-expense-edit {*/
+
+/*}*/
+
+/*.wrapper-income-expense-edit h1 {*/
+/*    font-size: 40px;*/
+/*    color: #052c65;*/
+/*    margin: 0 0 40px 0;*/
+/*    display: flex;*/
+/*}*/
+/*.income-expense-edit-block input, select {*/
+/*    display: flex;*/
+/*}*/
+/*.income-expense-edit-type {*/
+/*    width: 417px;*/
+/*    height: 38px;*/
+/*    padding: 0 16px;*/
+/*    border: 1px solid #CED4DA;*/
+/*    border-radius: 4px;*/
+/*    font-size: 15px;*/
+/*    appearance: none;*/
+/*    margin-bottom: 10px;*/
+/*    cursor: pointer;*/
+/*    color: #6C757D;*/
+/*}*/
+
+/*.income-expense-edit-type:invalid,*/
+/*.income-expense-edit-type option[disabled] {*/
+/*    color: #6C757D;*/
+/*}*/
+
+
+/*.input-income-expense-edit input {*/
+/*    border: 1px solid #ced4da;*/
+/*    border-radius: 4px;*/
+/*    width: 417px;*/
+/*    height: 38px;*/
+/*    margin-bottom: 10px;*/
+/*    font-size: 15px;*/
+/*    line-height: 160%;*/
+/*    color: #6c757d;*/
+/*    padding-left: 16px;*/
+/*}*/
+/*.btn-income-expense-edit {*/
+/*    display: flex;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.btn-edit-income-expense-edit {*/
+/*    border-radius: 5px;*/
+/*    width: 88px;*/
+/*    height: 38px;*/
+/*    background: #198754;*/
+/*    font-size: 14px;*/
+/*    text-align: center;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.btn-remove-income-expense-edit {*/
+/*    border-radius: 5px;*/
+/*    width: 83px;*/
+/*    height: 38px;*/
+/*    background: #dc3545;*/
+/*    font-size: 14px;*/
+/*    text-align: center;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    text-decoration: none;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+@import "expenses.css";
+@import "expenses-create.css";
+@import "expenses-edit.css";
+@import "home.css";
+@import "income.css";
+@import "income-create.css";
+@import "income-edit.css";
+@import "income-expense-create.css";
+@import "income-expense-edit.css";
+@import "income-expense-table.css";
+@import "login.css";
+@import "sign-up.css";
+@import "layout.css";
+
+@font-face {
+    src: url("../static/fonts/Roboto-Medium.ttf");
+    font-family: "RobotoMedium";
+}
+@font-face {
+    src: url("../static/fonts/Roboto-Regular.ttf");
+    font-family: "RobotoRegular";
+}
+body {
+    font-family: "RobotoMedium", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

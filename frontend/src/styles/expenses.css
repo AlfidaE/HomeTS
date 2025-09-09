@@ -1,0 +1,146 @@
+.wrapper-expenses {
+
+}
+
+.expenses-title {
+    font-size: 40px;
+    color: #052c65;
+    margin: 0 0 40px 0;
+    display: flex;
+}
+
+.cardExpenses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-expenses {
+    border: 1px solid #ced4da;
+    border-radius: 12px;
+    width: 352px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 28px;
+    color: #290661;
+    padding: 20px 0 10px 20px;
+    display: flex;
+}
+
+.cardExpenses-btn {
+    display: flex;
+}
+
+.card-btn-edit-expenses {
+    border-radius: 5px;
+    padding: 12px 16px;
+    width: 134px;
+    height: 38px;
+    background: #0d6efd;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    margin: 0 10px 20px 20px;
+    text-decoration: none;
+}
+
+.card-btn-remove-expenses {
+    border-radius: 5px;
+    padding: 12px 16px;
+    width: 88px;
+    height: 38px;
+    background: #dc3545;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-add {
+    position: relative;
+}
+
+.card-btn-add-expenses {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.card-btn-add-expenses svg {
+    display: block;
+}
+.popup-expenses {
+    border: 1px solid #ced4da;
+    border-radius: 12px;
+    width: 530px;
+    height: 184px;
+    background: #fff;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: none;
+}
+.popup-expenses p {
+    font-size: 20px;
+    text-align: center;
+    color: #290661;
+    margin: 40px 40px 20px 40px;
+}
+.popup-btn-expenses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-btn-expenses-yes {
+    border-radius: 5px;
+    width: 111px;
+    height: 38px;
+    background: #198754;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-right: 12px;
+}
+.popup-btn-expenses-no {
+    border-radius: 5px;
+    width: 107px;
+    height: 38px;
+    background: #dc3545;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

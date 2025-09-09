@@ -1,0 +1,88 @@
+.wrapper-income-expense-create {
+
+}
+
+.wrapper-income-expense-create h1 {
+    font-size: 40px;
+    color: #052c65;
+    margin: 0 0 40px 0;
+    display: flex;
+}
+.income-expense-create-block input, select {
+    display: flex;
+
+}
+.income-expense-create-type {
+    width: 417px;
+    height: 38px;
+    padding: 0 16px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    font-size: 15px;
+    appearance: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #6C757D;
+}
+
+.income-expense-create-type:invalid,
+.income-expense-create-type option[disabled] {
+    color: #6C757D;
+}
+
+
+.input-income-expense-create input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 417px;
+    height: 38px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 160%;
+    color: #6c757d;
+    padding-left: 16px;
+}
+.btn-income-expense-create {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn-edit-income-expense-create {
+    border-radius: 5px;
+    width: 88px;
+    height: 38px;
+    background: #198754;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-remove-income-expense-create {
+    border-radius: 5px;
+    width: 83px;
+    height: 38px;
+    background: #dc3545;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+

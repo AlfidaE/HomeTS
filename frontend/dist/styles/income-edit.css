@@ -1,0 +1,78 @@
+.wrapper-income-edit {
+}
+
+.wrapper-income-edit h1 {
+    font-size: 40px;
+    color: #052c65;
+    margin: 0 0 40px 0;
+    display: flex;
+}
+
+.input-income-edit input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 397px;
+    height: 38px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #000;
+    padding-left: 16px;
+    display: flex;
+}
+.input-income-edit input::placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+.btn-income-edit {
+    display: flex;
+}
+
+.btn-keep-income-edit {
+    border-radius: 5px;
+    padding: 12px 16px;
+    width: 103px;
+    height: 38px;
+    background: #198754;
+    font-size: 14px;
+    place-items: center;
+    display: flex;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-remove-income-edit {
+    border-radius: 5px;
+    padding: 12px 16px;
+    width: 83px;
+    height: 38px;
+    background: #dc3545;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    place-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.error-message-income-edit {
+    color: #b80a0a;
+    /*display: none;*/
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+

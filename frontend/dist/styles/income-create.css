@@ -1,0 +1,67 @@
+.wrapper-income-create {
+}
+
+.wrapper-income-create h1 {
+    font-size: 40px;
+    color: #052c65;
+    margin: 0 0 40px 0;
+    display: flex;
+}
+
+.input-income-create input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 397px;
+    height: 38px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 160%;
+    color: #6c757d;
+    padding-left: 16px;
+    display: flex;
+}
+.btn-income-create {
+    display: flex;
+}
+
+.btn-edit-income-create {
+    border-radius: 5px;
+    padding: 12px 16px;
+    width: 88px;
+    height: 38px;
+    background: #198754;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    place-items: center;
+    display: flex;
+}
+
+.btn-remove-income-create {
+    border-radius: 5px;
+    padding: 12px 16px;
+    width: 83px;
+    height: 38px;
+    background: #dc3545;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    place-items: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+

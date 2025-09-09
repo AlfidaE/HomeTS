@@ -1,0 +1,158 @@
+.wrapper-income-expense-table h1 {
+    font-size: 40px;
+    color: #052c65;
+    margin: 0 0 40px 0;
+    display: flex;
+}
+.btn-income-expense-table {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.btn-edit-income-expense-table {
+    border-radius: 5px;
+    width: 130px;
+    height: 38px;
+    background: #198754;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-remove-income-expense-table {
+    border-radius: 5px;
+    width: 137px;
+    height: 38px;
+    background: #dc3545;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.income-expense-table-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.btn-choice-date {
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    padding: 9px 12px;
+    width: 100px;
+    height: 37px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #6c757d;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-choice-date.active {
+    background-color: #6c757d;
+    color: white;
+    border-color: #6c757d;
+}
+.income-expense-table-btn button:hover {
+    background-color: #6c757d;
+    color: white;
+}
+.date-range-selector span {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #000;
+    margin-right: 9px;
+}
+.date-link {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #6c757d;
+    cursor: pointer;
+    margin-right: 27px;
+}
+
+/* Скрываем настоящий input */
+.hidden-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.table {
+    max-width: 1101px;
+    border-top: 1px solid #DEE2E6;
+}
+.table>:not(caption)>*>* {
+    padding: 15px 0;
+}
+.table th {
+    font-size: 16px;
+    letter-spacing: 0.08em;
+    color: #052c65;
+}
+.btn-delete-operation, .btn-edit-operation {
+    background: transparent;
+    border: none;
+}
+.popup-income-expense-table {
+    border: 1px solid #ced4da;
+    border-radius: 12px;
+    width: 530px;
+    height: 184px;
+    background: #fff;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: none;
+}
+.popup-income-expense-table p {
+    font-size: 20px;
+    text-align: center;
+    color: #290661;
+    margin: 40px 40px 20px 40px;
+}
+.popup-btn-income-expense-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-btn-income-expense-table-yes {
+    border-radius: 5px;
+    width: 111px;
+    height: 38px;
+    background: #198754;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-right: 12px;
+}
+.popup-btn-income-expense-table-no {
+    border-radius: 5px;
+    width: 107px;
+    height: 38px;
+    background: #dc3545;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}

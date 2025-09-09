@@ -1,0 +1,37 @@
+<section class="wrapper-income-expense-create">
+    <h1>Создание дохода/расхода</h1>
+
+    <div class="income-expense-create-block">
+
+        <div class="input-income-expense-create">
+            <select class="income-expense-create-type">
+                <option value="" disabled selected>Тип...</option>
+                <option value="income">Доход</option>
+                <option value="expense">Расход</option>
+            </select>
+        </div>
+
+        <div class="input-income-expense-create">
+            <select class="income-expense-create-type income-expense-create-category">
+                <option value="" disabled selected>Категория...</option>
+
+            </select>
+        </div>
+        <div class="input-income-expense-create">
+            <input type="number" class="form-control" placeholder="Сумма в $..." min="0" step="0.01">
+        </div>
+
+        <div class="input-income-expense-create">
+            <input type="date" class="form-control" placeholder="Дата...">
+        </div>
+
+        <div class="input-income-expense-create">
+            <input type="text" class="form-control" placeholder="Комментарий...">
+        </div>
+
+        <div class="btn-income-expense-create">
+            <button class="btn-edit-income-expense-create" id="income-expense-create-btn-edit">Создать</button>
+            <button class="btn-remove-income-expense-create" id="income-expense-create-btn-remove">Отмена</button>
+        </div>
+    </div>
+</section>

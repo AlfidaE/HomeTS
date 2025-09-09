@@ -1,0 +1,53 @@
+<section class="wrapper-income-expense-table">
+    <h1>Доходы и расходы</h1>
+
+    <div class="btn-income-expense-table">
+        <button class="btn-edit-income-expense-table" id="income-expense-table-btn-edit">Создать доход</button>
+        <button class="btn-remove-income-expense-table" id="income-expense-table-btn-remove">Создать расход</button>
+    </div>
+
+    <div class="income-expense-table-btn">
+        <button type="button" class="btn btn-choice-date" id="today">Сегодня</button>
+        <button type="button" class="btn btn-choice-date" id="week">Неделя</button>
+        <button type="button" class="btn btn-choice-date" id="month">Месяц</button>
+        <button type="button" class="btn btn-choice-date" id="year">Год</button>
+        <button type="button" class="btn btn-choice-date" id="all">Все</button>
+        <button type="button" class="btn btn-choice-date" id="interval">Интервал</button>
+
+        <div class="date-range-selector">
+            <span>с</span>
+            <a href="#" class="date-link" id="startDateLink">Дата</a>
+            <input type="text" class="hidden-input" id="startDate">
+            <span>по</span>
+            <a href="#" class="date-link" id="endDateLink">Дата</a>
+            <input type="text" class="hidden-input" id="endDate">
+        </div>
+    </div>
+
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">№ операции</th>
+            <th scope="col">Тип</th>
+            <th scope="col">Категория</th>
+            <th scope="col">Сумма</th>
+            <th scope="col">Дата</th>
+            <th scope="col">Комментарий</th>
+            <th></th>
+        </tr>
+        </thead>
+
+        <tbody id="records"></tbody>
+
+    </table>
+
+    <div class="popup-income-expense-table">
+        <p>Вы действительно хотите удалить операцию?</p>
+        <div class="popup-btn-income-expense-table">
+            <button class="popup-btn-income-expense-table-yes">Да, удалить</button>
+            <button class="popup-btn-income-expense-table-no">Не удалять</button>
+        </div>
+    </div>
+
+</section>

@@ -1,0 +1,53 @@
+.wrapper-sign-up {
+
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.sign-up-title {
+    font-size: 40px;
+    text-align: center;
+    color: #052c65;
+    margin-bottom: 20px;
+    font-family: RobotoMedium, sans-serif;
+}
+
+.error-sign-up {
+    margin-bottom: 1rem;
+    max-width: 397px;
+    color: #b80a0a;
+}
+
+.input-group-text {
+    padding: 0;
+}
+
+.input-group-text svg {
+    flex-shrink: 0;
+}
+.form-control::placeholder {
+    color: #6C757D;
+}
+.form-control {
+    font-size: 15px;
+    line-height: 160%;
+    color: #000;
+    font-family: RobotoRegular, sans-serif;
+}
+
+.text-center {
+    font-size: 12px;
+    color: #000;
+    font-family: RobotoRegular, sans-serif;
+}
+.text-center a {
+    font-size: 12px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0d6efd;
+    font-family: RobotoRegular, sans-serif;
+}
+#process-button {
+    font-family: RobotoMedium, sans-serif;
+}
+

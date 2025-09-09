@@ -1,0 +1,120 @@
+.login-container {
+    max-width: 397px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-title {
+    font-size: 40px;
+    text-align: center;
+    color: #052c65;
+    margin-bottom: 20px;
+    font-family: "RobotoMedium", sans-serif;
+    font-weight: 400;
+}
+
+.error-login {
+    color: red;
+    display: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.form-input {
+    width: 100%;
+    max-width: 397px; /* Ширина как у кнопки */
+}
+.input-group {
+    margin-bottom: 10px;
+}
+.input-group-text {
+    background-color: #fff;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    width: 397px; /* Ширина как у кнопки */
+    height: 38px;
+    padding: 0;
+}
+
+.input-group-text svg {
+    margin-right: 13px;
+}
+.form-control::placeholder {
+    color: #6C757D;
+}
+.form-control {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 100%;
+    font-size: 15px;
+    color: #000;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.iCheck {
+    font-size: 12px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 20px;
+}
+.form-check-input {
+    margin-top: 0;
+}
+.btn-signUp {
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 16px;
+    width: 100%;
+    max-width: 397px;
+    background: #0d6efd;
+    font-family: RobotoRegular, sans-serif;
+    font-weight: 400;
+}
+
+.btn-signUp:hover {
+    background: #043c88;
+}
+
+.form-link-login {
+    font-size: 12px;
+    color: #000;
+    display: flex;
+    margin-top: 10px;
+    font-family: RobotoRegular, sans-serif;
+}
+
+.form-link-login a {
+    margin-left: 10px;
+    font-size: 12px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0d6efd;
+    font-family: RobotoRegular, sans-serif;
+
+}
+.error {
+    color: red;
+    font-size: 14px;
+    display: none;
+    margin-top: 5px;
+}
+.form-control.is-invalid {
+    border-color: red !important;
+}
+.form-check-label {
+    font-size: 12px;
+    color: #000;
+    font-family: RobotoRegular, sans-serif;
+}

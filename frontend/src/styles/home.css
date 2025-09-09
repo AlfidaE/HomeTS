@@ -1,0 +1,68 @@
+
+.wrapper-home {
+
+}
+
+
+.home-title {
+    font-size: 40px;
+    color: #052c65;
+    margin-bottom: 40px;
+    display: flex;
+}
+.home-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.btn-choice-date {
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    padding: 9px 12px;
+    width: 100px;
+    height: 37px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #6c757d;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-btn button:hover {
+    background-color: #6c757d;
+    color: white;
+}
+.date-range-selector span {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #000;
+    margin-right: 9px;
+}
+
+.date-link {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #6c757d;
+    cursor: pointer;
+    margin-right: 27px;
+}
+
+/* Скрываем настоящий input */
+.hidden-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.pie-title {
+    font-size: 28px;
+    color: #290661;
+}

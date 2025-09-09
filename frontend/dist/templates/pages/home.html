@@ -1,0 +1,45 @@
+<section class="wrapper-home">
+    <h1 class="home-title">Главная</h1>
+
+    <div class="home-btn">
+        <button type="button" class="btn btn-choice-date" id="today">Сегодня</button>
+        <button type="button" class="btn btn-choice-date" id="week">Неделя</button>
+        <button type="button" class="btn btn-choice-date" id="month">Месяц</button>
+        <button type="button" class="btn btn-choice-date" id="year">Год</button>
+        <button type="button" class="btn btn-choice-date" id="all">Все</button>
+        <button type="button" class="btn btn-choice-date" id="interval">Интервал</button>
+
+        <div class="date-range-selector">
+            <span>с</span>
+            <a href="#" class="date-link" id="startDateLink">Дата</a>
+            <input type="text" class="hidden-input" id="startDate">
+            <span>по</span>
+            <a href="#" class="date-link" id="endDateLink">Дата</a>
+            <input type="text" class="hidden-input" id="endDate">
+        </div>
+    </div>
+
+<div class="pie" style="display: flex">
+    <div class="incomeChart" style="max-width: 521px; border-right: 1px solid #d9d9d9";>
+        <h2 class="pie-title">Доходы</h2>
+        <canvas
+                id="myChart"
+
+                style="width: 367px; height: 367px; display: block; margin-right: 84px"
+        ></canvas>
+    </div>
+    <div class="expenseChart">
+        <h2 class="pie-title">Расходы</h2>
+        <canvas
+                id="myChart2"
+
+                style="width: 367px; height: 367px; display: block; margin-left: 84px;
+"
+        ></canvas>
+    </div>
+</div>
+
+   </section>
+
+
+

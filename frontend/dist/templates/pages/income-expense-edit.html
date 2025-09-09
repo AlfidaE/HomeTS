@@ -1,0 +1,35 @@
+<section class="wrapper-income-expense-edit">
+    <h1>Редактирование дохода/расхода</h1>
+
+    <div class="income-expense-edit-block">
+
+        <div class="input-income-expense-edit">
+            <select class="income-expense-edit-type">
+                <option value="" disabled selected>Тип...</option>
+                <option value="income">Доход</option>
+                <option value="expense">Расход</option>
+            </select>
+        </div>
+
+        <div class="input-income-expense-edit">
+            <select class="income-expense-edit-type income-expense-edit-category">
+                <option value="" disabled selected>Категория...</option>
+
+            </select>
+        </div>
+        <div class="input-income-expense-edit">
+            <input type="number" class="form-control" placeholder="Сумма в $..." min="0" step="0.01" required>
+        </div>
+        <div class="input-income-expense-edit">
+            <input type="date" class="form-control" placeholder="Дата..." required>
+        </div>
+        <div class="input-income-expense-edit">
+            <input type="text" class="form-control" placeholder="Комментарий...">
+        </div>
+        <div class="btn-income-expense-edit">
+
+            <button class="btn-edit-income-expense-edit" id="income-expense-edit-btn-edit">Создать</button>
+            <button class="btn-remove-income-expense-edit" id="income-expense-edit-btn-remove">Отмена</button>
+        </div>
+    </div>
+</section>
